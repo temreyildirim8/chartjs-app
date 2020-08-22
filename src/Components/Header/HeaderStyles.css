@@ -1,0 +1,23 @@
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 30px 0 30px;
+}
+
+.header_left{
+  width: 98%;
+  align-self: flex-start ;
+}
+
+.header_left img{
+  width: 150px;
+}
+
+.header_right{
+  width: 2%;
+  align-self: flex-end;
+}
+
+.header_right img{
+  width: 30px;
+}

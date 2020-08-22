@@ -1,0 +1,96 @@
+
+  .sign_in_form {
+    font-family: "Helvetica Neue", sans-serif;
+    margin-top: -30px;
+    padding: 30px;
+    height: 100vh;
+  }
+
+  .sign_in_form form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 5% 20%;
+  }
+  
+  .sign_in_form input {
+    display: block;
+    box-sizing: border-box;
+    background: rgb(31, 30, 42);
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: 0.5px solid gray;
+    padding: 10px 15px;
+    margin-bottom: 0.5px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  
+  .sign_in_form button[type="submit"],
+  .sign_in_form input[type="submit"] {
+    background: rgb(197, 92, 210);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  
+  .sign_in_form button[type="submit"]:hover,
+  .sign_in_form input[type="submit"]:hover {
+    background: #bf1650;
+  }
+  
+  .sign_in_form button[type="submit"]:active,
+  .sign_in_form input[type="button"]:active,
+  .sign_in_form input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .sign_in_form input:disabled {
+    opacity: 0.4;
+  }
+  
+  .sign_in_form input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  .sign_in_form button[type="submit"],
+  .sign_in_form input[type="button"],
+  .sign_in_form input[type="submit"] {
+    -webkit-appearance: none;
+  }
+
+  .sign_in_form p {
+    color: #bf1650;
+  }
+  
+  .sign_in_form p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+
+  .sign_in_form .hedwig_image img{
+    width: 350px;
+  }
+
+
+  .sign_in_form .title {
+    text-align: center;
+    color: rgb(49, 49, 73);
+    padding-top: 40px;
+  }
+
+
+  .sign_in_form .copyright {
+    text-align: center;
+    color: rgb(73, 75, 84);
+    padding-top: 60px;
+  }
+  
