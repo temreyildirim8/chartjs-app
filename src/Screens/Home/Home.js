@@ -36,7 +36,6 @@ const Home = ({
   const history = useHistory();
 
   useEffect(() => {
-    const isSignedIn = true;
     if (!isSignedIn) {
       history.push(ROUTES.SIGN_IN);
     } else {
