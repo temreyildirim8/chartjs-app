@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { withRouter } from "react-router";
 import { useHistory } from "react-router-dom";
@@ -36,6 +36,7 @@ const Home = ({
   const history = useHistory();
 
   useEffect(() => {
+    const isSignedIn = true;
     if (!isSignedIn) {
       history.push(ROUTES.SIGN_IN);
     } else {
